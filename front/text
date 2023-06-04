@@ -1,0 +1,25 @@
+# Projet_4_front
+
+# Note du front
+
+-Page /Accueil non connecté:
+--afficher image publique
+--Composant image: date; bouton générer une url (unique a chaque image mais qui ne dois pas changer)
+
+-Page /MonCompte/Photo connecté: 
+--photo privé; bouton suppression d'image; bouton déconnexion; bouton suppression de compte
+--pop up formulaire upload: drop une image sur la page d'accueil et ouvre une 
+pop up de choix publique/privé et un bouton validé
+
+
+-Page /inscription
+-Page /Connexion
+-Bonus: Page mots de pass oublié
+
+
+Page accueil 1 galries photos => maxime 
+page mes photos 1 DragDrop => maxime
+page MonCompte 1 => maxime
+Page connextion 1 => Robin
+Page inscription 1 => Robin
+

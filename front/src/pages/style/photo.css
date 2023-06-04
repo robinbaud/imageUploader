@@ -1,0 +1,52 @@
+.Photo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .dropzone {
+    width: 300px;
+    height: 150px;
+    border: 2px dashed #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    margin-bottom: 20px;
+  }
+  
+  .dropzone p {
+    margin: 0;
+  }
+  
+  aside {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+  }
+  
+  aside > div {
+    margin-right: 10px;
+    margin-bottom: 10px;
+  }
+  
+  img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+  }
+  
+  .upload-btn {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .upload-btn:hover {
+    background-color: #0069d9;
+  }
+  
+  

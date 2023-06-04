@@ -1,0 +1,26 @@
+/* Gallery.css */
+
+.imagehome {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+  
+  /* Si vous souhaitez ajouter de l'espace entre les images */
+  .ImageList {
+    gap: 10px;
+  }
+  
+  /* Si vous souhaitez modifier la taille de la grille en fonction de la taille de l'écran */
+  @media (max-width: 768px) {
+    .ImageList {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .ImageList {
+      grid-template-columns: repeat(1, 1fr);
+    }
+  }
+  
